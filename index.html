@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Youtuber</title>
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header and logo */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Make the logo round */
+            margin-bottom: 15px;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+            color: #ffb74d;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .video-section h2, .video-section img {
+            cursor: pointer; /* Makes clickable elements appear clickable */
+        }
+
+        .video-section h2 {
+            font-size: 2rem;
+            color: #ffb74d;
+            margin-bottom: 10px;
+        }
+
+        .video-section p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #b0bec5;
+        }
+
+        .video-section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Round Logo -->
+            <img src="C:\Users\shubham gupta\Downloads\channels4_profile.jpg" alt="Manish Sonu Logo">
+            <h1>Manish Sonu</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Suggest Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Video Section -->
+        <section class="video-section">
+            <!-- Clicking on the title, video number, or thumbnail will open the video in the same tab -->
+            <a href="adivshi.html">
+                <h2>Video #1</h2>
+                <img src="C:\Users\shubham gupta\Downloads\1.png" alt="Video Thumbnail">
+            </a>
+            <p>Adivashi Hair Oil Scam.</p>
+        </section>
+    </main>
+</body>
+</html>
